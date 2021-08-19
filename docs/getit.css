@@ -20,16 +20,59 @@ Algumas informações úteis e dicas:
       #fae890
       #abe9c1
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
- */
 
 html,
 body {
   font-family: "Roboto", sans-serif;
 }
+*/
+
+.appbar {
+  background-color: #f7d736;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.4)
+}
+
+.logo {
+  height: 100%;
+  width: 60px;
+  padding: 7px;
+  padding-left: 10px
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 5px;
+}
+
+.form-card{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin: 50px 400px 50px 400px;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2);
+  border: 10px solid white;
+  border-radius: 8px
+}
+.form-card-title {
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold
+}
+
+.autoresize {
+  font-family: 'Roboto', sans-serif;
+  border-color: white;
+  padding: 10px 0px 0px 10px
+}
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +120,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
