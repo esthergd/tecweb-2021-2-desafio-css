@@ -5,8 +5,7 @@ Grupo:
 - Bruno Boldrim Saboya
 - Esther Gallo Dagir
 - João Vitor Menezes de Magalhães
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://github.com/esthergd/tecweb-2021-2-desafio-css)
-
+- Link do GitHub Pages: https://esthergd.github.io/tecweb-2021-2-desafio-css/
 ## Desafio CSS
 
 O seu objetivo é se aproximar o máximo possível da página a seguir (se precisar de uma imagem com resolução melhor [clique aqui](referencia.png)) utilizando apenas CSS puro. Este gif mostra a página sendo recarregada manualmente. A animação é apenas para mostrar que a cada vez que a página é carregada, os elementos mudam de cor e rotação aleatoriamente. Não se preocupe, o javascript responsável pela aleatorização já está pronto.
